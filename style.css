@@ -1,0 +1,284 @@
+/* Basic Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* Body Styling */
+
+body{
+
+    font-family: Arial, sans-serif;
+
+    background:#f5f7fb;
+
+    color:#333;
+
+}
+
+
+/* Navigation Bar */
+
+header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 10%;
+
+    background:#0d47a1;
+
+    color:white;
+
+    position:sticky;
+
+    top:0;
+
+}
+
+
+/* Logo */
+
+.logo h2{
+
+    font-size:25px;
+
+}
+
+
+/* Navigation Links */
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-left:20px;
+
+    font-size:16px;
+
+}
+
+
+nav a:hover{
+
+    color:#90caf9;
+
+}
+
+
+
+/* Home Section */
+
+#home{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    padding:80px 10%;
+
+    min-height:90vh;
+
+}
+
+
+
+.home-text{
+
+    max-width:500px;
+
+}
+
+
+
+.home-text h3{
+
+    font-size:30px;
+
+}
+
+
+
+.home-text h1{
+
+    font-size:50px;
+
+    color:#0d47a1;
+
+}
+
+
+
+.home-text h2{
+
+    margin:15px 0;
+
+}
+
+
+
+.home-text p{
+
+    line-height:1.6;
+
+    margin-bottom:20px;
+
+}
+
+
+/* Button */
+
+button{
+
+    padding:12px 25px;
+
+    background:#0d47a1;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+
+button:hover{
+
+    background:#1565c0;
+
+}
+
+
+
+/* Image */
+
+.home-image img{
+
+    width:250px;
+
+    height:250px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+}
+
+
+
+/* All Sections */
+
+section{
+
+    padding:60px 10%;
+
+}
+
+
+/* Section Titles */
+
+section h2{
+
+    text-align:center;
+
+    color:#0d47a1;
+
+    margin-bottom:30px;
+
+}
+
+
+
+/* Education Table */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+
+
+table,th,td{
+
+    border:1px solid #ccc;
+
+}
+
+
+
+th,td{
+
+    padding:15px;
+
+    text-align:center;
+
+}
+
+
+/* Skills */
+
+.skill-box{
+
+    display:inline-block;
+
+    background:white;
+
+    padding:20px;
+
+    margin:10px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* Projects */
+
+.project{
+
+    background:white;
+
+    padding:20px;
+
+    margin:20px 0;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+
+    padding:20px;
+
+    background:#0d47a1;
+
+    color:white;
+
+}
